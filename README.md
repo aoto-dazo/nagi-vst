@@ -28,7 +28,7 @@ GitHub Actions（`.github/workflows/build.yml`）がWindows用VST3を自動ビ�
 
 手元でビルドする場合:
 ```
-cmake -S . -B build -G "Visual Studio 17 2022" -A x64
+cmake -S . -B build -A x64
 cmake --build build --config Release --target Nagi_VST3
 ```
 

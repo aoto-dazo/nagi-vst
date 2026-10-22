@@ -27,4 +27,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Nagi-VST3-Windows-x64
-          path: build/Nagi_artefacts/Release/VST3/Nagi.vst3
+          path: build/Nagi_artefacts/Release/VST3/
